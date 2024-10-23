@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Lista de Tareas</title>
+</head>
+<nav>
+    <div class="navbar-brand">
+        <img src="planning.png" alt="planning" class="navbar-image">
+        <li class="navbar-title"><strong>Lista de Tareas</strong></li> <!-- Título agregado junto al ícono -->
+    </div>
+    <a href="#pendientes"><li>Tareas Pendientes</li></a>
+    <a href="#en-proceso"><li>Tareas En Proceso</li></a>
+    <a href="#completadas"><li>Tareas Completadas</li></a>
+</nav>
+<body>
+     <!-- Sección de Tareas Pendientes -->
+     <section id="pendientes">
+        <h2>Tareas Pendientes</h2>
+        <div class="tareas-container">
+            <div class="tarjeta tarea borde-rojo">
+                <h3>Terminar reporte de ventas</h3>
+            <p>Completar el análisis de ventas para el mes de octubre.</p>
+            <p>Fecha límite: 25/10/2024</p>
+                <div class="checkbox pendiente"></div>
+            </div>
+            </div>
+            <!-- Puedes replicar esta estructura para más tareas -->
+        </div>
+
+        <div class="tareas-container">
+            <div class="tarjeta tarea borde-verde">
+                <h3>Revisión de proyecto de diseño</h3>
+            <p>Revisar y dar feedback sobre las nuevas propuestas de diseño.</p>
+            <p>Fecha límite: 22/10/2024</p>
+                <div class="checkbox pendiente"></div>
+            </div>
+            <!-- Puedes replicar esta estructura para más tareas -->
+        </div>
+    </section>
+
+<!------------------------------------------------------------------------------------------------>
+
+<section id="en-proceso">
+    <h2>Tareas En Proceso</h2>
+    <div class="tareas-container">
+        <div class="tarjeta tarea borde-rojo">
+            <h3>Actualizar el sitio web</h3>
+            <p>Implementar las últimas correcciones en la página de inicio.</p>
+            <p>Fecha límite: 26/10/2024</p>
+            <div class="checkbox pendiente"></div>
+        </div>
+        <!-- Puedes replicar esta estructura para más tareas -->
+    </div>
+
+    <div class="tareas-container">
+        <div class="tarjeta tarea borde-amarillo">
+            <h3>Enviar correos a los clientes</h3>
+            <p>Redactar y enviar las actualizaciones de producto a los clientes clave.</p>
+            <p>Fecha límite: 24/10/2024</p>
+            <div class="checkbox pendiente"></div>
+        </div>
+        <!-- Puedes replicar esta estructura para más tareas -->
+    </div>
+</section>
+
+<!------------------------------------------------------------------------------------------------>
+
+
+<section id="completadas">
+    <h2>Tareas Completadas</h2>
+    <div class="tareas-container">
+        <div class="tarjeta tarea borde-verde">
+            <h3>Preparar presentación para reunión</h3>
+            <p>Crear una presentación para la reunión del equipo de marketing.</p>
+            <p>Fecha límite: 23/10/2024</p>
+            <div class="checkbox pendiente"></div>
+        </div>
+        <!-- Puedes replicar esta estructura para más tareas -->
+    </div>
+
+    <div class="tareas-container">
+        <div class="tarjeta tarea borde-verde">
+            <h3>Planificar evento corporativo</h3>
+            <p>Organizar los detalles para el próximo evento de la empresa.</p>
+            <p>Fecha límite: 28/10/2024</p>
+            <div class="checkbox pendiente"></div>
+        </div>
+        <!-- Puedes replicar esta estructura para más tareas -->
+    </div>
+</section>
+</body>
+<footer>
+    <p>&copy; 2024 Lista de Tareas. All Rights Reserved.</p>
+</footer>
+</html>
